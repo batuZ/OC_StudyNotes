@@ -17,7 +17,7 @@
 		<key>OC_StudyNotes.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 		<key>代理.xcscheme</key>
 		<dict>
@@ -37,7 +37,7 @@
 		<key>协议-protocol.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>6</integer>
 		</dict>
 		<key>单例模式.xcscheme</key>
 		<dict>
@@ -47,7 +47,7 @@
 		<key>单例模式.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>块-Block.xcscheme</key>
 		<dict>
@@ -67,7 +67,7 @@
 		<key>序列化-反序列化.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>0</integer>
 		</dict>
 		<key>捕获异常.xcscheme</key>
 		<dict>
@@ -77,7 +77,7 @@
 		<key>捕获异常.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>9</integer>
 		</dict>
 		<key>文件管理及读写.xcscheme</key>
 		<dict>
@@ -87,7 +87,7 @@
 		<key>文件管理及读写.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>日期时间类.xcscheme</key>
 		<dict>
@@ -107,7 +107,7 @@
 		<key>沙盒.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>类和实例.xcscheme</key>
 		<dict>
