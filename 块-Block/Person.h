@@ -8,7 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 @interface Person : NSObject
+#pragma - mark Block作为函数的参数
+
+@property (copy, nonatomic) void(^prop_1)(void) ;
+@property (copy, nonatomic) int(^prop_2)(int,int);
+
+#pragma - mark Block作为函数的参数
 //无参无返
 -(void)useBlock:(void(^)(void)) block;
 
@@ -19,4 +27,8 @@
 -(void)useBlock2:(NSInteger (^)(NSInteger,NSInteger))block;
 
 -(void)reLoad;
+
+#pragma - mark Block作为函数的返回值
+-(void(^)(void)) getBlock_1;
+
 @end

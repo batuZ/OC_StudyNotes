@@ -32,23 +32,8 @@
  */
 
 #import <Foundation/Foundation.h>
-
-void func(){}
-
-//block的定义方法
-void def_Blocks(){
-    
-    //无参无返, 类型：void(^)void  块名：block1
-    void(^block1)(void) = ^{};
-    
-    //有参无返, 类型：void(^)(NSString*)  块名：block1
-    void(^block2)(NSString*)=^(NSString* s){};
-    
-    //有参有返, 类型：int(^)(int,int)  块名：block1
-    int(^block3)(int,int)=^(int a,int b){return a+b;};
-}
-
 #import "Person.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
