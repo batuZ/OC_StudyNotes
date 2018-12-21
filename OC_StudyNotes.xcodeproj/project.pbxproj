@@ -27,7 +27,6 @@
 		47A80189210EE09600C94B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A80188210EE09600C94B54 /* Assets.xcassets */; };
 		47A8018C210EE09600C94B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A8018A210EE09600C94B54 /* LaunchScreen.storyboard */; };
 		47A8018F210EE09600C94B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A8018E210EE09600C94B54 /* main.m */; };
-		47A80199210EE09700C94B54 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A80198210EE09700C94B54 /* __UITests.m */; };
 		47A801A3210EE31B00C94B54 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A801A2210EE31B00C94B54 /* config.plist */; };
 		47A801AB210EE80500C94B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A801AA210EE80500C94B54 /* main.m */; };
 		47A801B1210EE92F00C94B54 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A801B0210EE92F00C94B54 /* Person.m */; };
@@ -35,6 +34,15 @@
 		47A801BC210EFB3B00C94B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A801BB210EFB3B00C94B54 /* main.m */; };
 		47A801CE210F104E00C94B54 /* DownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A801CD210F104E00C94B54 /* DownLoader.m */; };
 		47A801D1210F111D00C94B54 /* View_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A801D0210F111D00C94B54 /* View_1.m */; };
+		47C4E13421CD21920020D096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4E13321CD21920020D096 /* AppDelegate.m */; };
+		47C4E13721CD21920020D096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4E13621CD21920020D096 /* ViewController.m */; };
+		47C4E13A21CD21920020D096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C4E13821CD21920020D096 /* Main.storyboard */; };
+		47C4E13C21CD21950020D096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C4E13B21CD21950020D096 /* Assets.xcassets */; };
+		47C4E13F21CD21950020D096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C4E13D21CD21950020D096 /* LaunchScreen.storyboard */; };
+		47C4E14221CD21950020D096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4E14121CD21950020D096 /* main.m */; };
+		47C4E14821CD21CB0020D096 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C4E14721CD21CB0020D096 /* libsqlite3.0.tbd */; };
+		47C4E14B21CD22400020D096 /* SqliteTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4E14A21CD22400020D096 /* SqliteTools.m */; };
+		47C4E14E21CD24DE0020D096 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C4E14D21CD24DE0020D096 /* Model.m */; };
 		47C56259210972BA00D59808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C56258210972BA00D59808 /* main.m */; };
 		47C562662109B18300D59808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C562652109B18300D59808 /* main.m */; };
 		47C5626C2109B1B200D59808 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C5626B2109B1B200D59808 /* Person.m */; };
@@ -50,16 +58,6 @@
 		47DAF8FC2115B3C20047E910 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF8FB2115B3C20047E910 /* README.md */; };
 		47DAFAC4211704B50047E910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFAC3211704B50047E910 /* main.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		47A80195210EE09700C94B54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47C5624D210972BA00D59808 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47A8017C210EE08E00C94B54;
-			remoteInfo = "沙盒";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		477771352110436E0071950B /* CopyFiles */ = {
@@ -219,9 +217,6 @@
 		47A8018B210EE09600C94B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47A8018D210EE09600C94B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A8018E210EE09600C94B54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		47A80194210EE09700C94B54 /* 沙盒UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "沙盒UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A80198210EE09700C94B54 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
-		47A8019A210EE09700C94B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A801A1210EE21900C94B54 /* test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
 		47A801A2210EE31B00C94B54 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		47A801A8210EE80500C94B54 /* 捕获异常 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "捕获异常"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +232,21 @@
 		47A801CF210F111D00C94B54 /* View_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_1.h; sourceTree = "<group>"; };
 		47A801D0210F111D00C94B54 /* View_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_1.m; sourceTree = "<group>"; };
 		47C394E0210CA0B300C20EAE /* mylist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mylist.plist; sourceTree = "<group>"; };
+		47C4E13021CD21920020D096 /* sqlite3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlite3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C4E13221CD21920020D096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47C4E13321CD21920020D096 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47C4E13521CD21920020D096 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47C4E13621CD21920020D096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47C4E13921CD21920020D096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47C4E13B21CD21950020D096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47C4E13E21CD21950020D096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47C4E14021CD21950020D096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C4E14121CD21950020D096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47C4E14721CD21CB0020D096 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
+		47C4E14921CD22400020D096 /* SqliteTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqliteTools.h; sourceTree = "<group>"; };
+		47C4E14A21CD22400020D096 /* SqliteTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteTools.m; sourceTree = "<group>"; };
+		47C4E14C21CD24DE0020D096 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		47C4E14D21CD24DE0020D096 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		47C56255210972BA00D59808 /* OC_StudyNotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_StudyNotes; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C56258210972BA00D59808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47C562632109B18300D59808 /* 类和实例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类和实例"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,13 +319,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47A80191210EE09700C94B54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47A801A5210EE80500C94B54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +330,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C4E12D21CD21920020D096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C4E14821CD21CB0020D096 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,15 +468,6 @@
 			path = "沙盒";
 			sourceTree = "<group>";
 		};
-		47A80197210EE09700C94B54 /* 沙盒UITests */ = {
-			isa = PBXGroup;
-			children = (
-				47A80198210EE09700C94B54 /* __UITests.m */,
-				47A8019A210EE09700C94B54 /* Info.plist */,
-			);
-			path = "沙盒UITests";
-			sourceTree = "<group>";
-		};
 		47A801A9210EE80500C94B54 /* 捕获异常 */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +492,34 @@
 			path = "代理";
 			sourceTree = "<group>";
 		};
+		47C4E13121CD21920020D096 /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				47C4E13221CD21920020D096 /* AppDelegate.h */,
+				47C4E13321CD21920020D096 /* AppDelegate.m */,
+				47C4E13521CD21920020D096 /* ViewController.h */,
+				47C4E13621CD21920020D096 /* ViewController.m */,
+				47C4E13821CD21920020D096 /* Main.storyboard */,
+				47C4E13B21CD21950020D096 /* Assets.xcassets */,
+				47C4E13D21CD21950020D096 /* LaunchScreen.storyboard */,
+				47C4E14021CD21950020D096 /* Info.plist */,
+				47C4E14121CD21950020D096 /* main.m */,
+				47C4E14921CD22400020D096 /* SqliteTools.h */,
+				47C4E14A21CD22400020D096 /* SqliteTools.m */,
+				47C4E14C21CD24DE0020D096 /* Model.h */,
+				47C4E14D21CD24DE0020D096 /* Model.m */,
+			);
+			path = sqlite3;
+			sourceTree = "<group>";
+		};
+		47C4E14621CD21CB0020D096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47C4E14721CD21CB0020D096 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47C5624C210972BA00D59808 = {
 			isa = PBXGroup;
 			children = (
@@ -504,13 +534,14 @@
 				47A80164210D43C900C94B54 /* 文件管理及读写 */,
 				47A8016F210EA27400C94B54 /* 协议-protocol */,
 				47A8017E210EE08E00C94B54 /* 沙盒 */,
-				47A80197210EE09700C94B54 /* 沙盒UITests */,
 				47A801A9210EE80500C94B54 /* 捕获异常 */,
 				47A801BA210EFB3B00C94B54 /* 代理 */,
 				477771382110436E0071950B /* 块-Block */,
 				47DAFAC2211704B50047E910 /* 日期时间类 */,
 				479467BA21B1337B009D4641 /* GCD */,
+				47C4E13121CD21920020D096 /* sqlite3 */,
 				47C56256210972BA00D59808 /* Products */,
+				47C4E14621CD21CB0020D096 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -527,12 +558,12 @@
 				47A80163210D43C900C94B54 /* 文件管理及读写 */,
 				47A8016E210EA27400C94B54 /* 协议-protocol */,
 				47A8017D210EE08E00C94B54 /* 沙盒.app */,
-				47A80194210EE09700C94B54 /* 沙盒UITests.xctest */,
 				47A801A8210EE80500C94B54 /* 捕获异常 */,
 				47A801B9210EFB3B00C94B54 /* 代理 */,
 				477771372110436E0071950B /* 块-Block */,
 				47DAFAC1211704B50047E910 /* 日期时间类 */,
 				479467B921B1337B009D4641 /* GCD.app */,
+				47C4E13021CD21920020D096 /* sqlite3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -711,24 +742,6 @@
 			productReference = 47A8017D210EE08E00C94B54 /* 沙盒.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47A80193210EE09700C94B54 /* 沙盒UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47A8019E210EE09700C94B54 /* Build configuration list for PBXNativeTarget "沙盒UITests" */;
-			buildPhases = (
-				47A80190210EE09700C94B54 /* Sources */,
-				47A80191210EE09700C94B54 /* Frameworks */,
-				47A80192210EE09700C94B54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47A80196210EE09700C94B54 /* PBXTargetDependency */,
-			);
-			name = "沙盒UITests";
-			productName = "沙盒UITests";
-			productReference = 47A80194210EE09700C94B54 /* 沙盒UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		47A801A7210EE80500C94B54 /* 捕获异常 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47A801AC210EE80500C94B54 /* Build configuration list for PBXNativeTarget "捕获异常" */;
@@ -762,6 +775,23 @@
 			productName = "代理";
 			productReference = 47A801B9210EFB3B00C94B54 /* 代理 */;
 			productType = "com.apple.product-type.tool";
+		};
+		47C4E12F21CD21920020D096 /* sqlite3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C4E14321CD21950020D096 /* Build configuration list for PBXNativeTarget "sqlite3" */;
+			buildPhases = (
+				47C4E12C21CD21920020D096 /* Sources */,
+				47C4E12D21CD21920020D096 /* Frameworks */,
+				47C4E12E21CD21920020D096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqlite3;
+			productName = sqlite3;
+			productReference = 47C4E13021CD21920020D096 /* sqlite3.app */;
+			productType = "com.apple.product-type.application";
 		};
 		47C56254210972BA00D59808 /* OC_StudyNotes */ = {
 			isa = PBXNativeTarget;
@@ -909,15 +939,14 @@
 					47A8017C210EE08E00C94B54 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					47A80193210EE09700C94B54 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 47A8017C210EE08E00C94B54;
-					};
 					47A801A7210EE80500C94B54 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 					47A801B8210EFB3B00C94B54 = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					47C4E12F21CD21920020D096 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 					47C56254210972BA00D59808 = {
 						CreatedOnToolsVersion = 9.3;
@@ -965,12 +994,12 @@
 				47A80162210D43C900C94B54 /* 文件管理及读写 */,
 				47A8016D210EA27400C94B54 /* 协议-protocol */,
 				47A8017C210EE08E00C94B54 /* 沙盒 */,
-				47A80193210EE09700C94B54 /* 沙盒UITests */,
 				47A801A7210EE80500C94B54 /* 捕获异常 */,
 				47A801B8210EFB3B00C94B54 /* 代理 */,
 				477771362110436E0071950B /* 块-Block */,
 				47DAFAC0211704B50047E910 /* 日期时间类 */,
 				479467B821B1337B009D4641 /* GCD */,
+				47C4E12F21CD21920020D096 /* sqlite3 */,
 			);
 		};
 /* End PBXProject section */
@@ -998,10 +1027,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47A80192210EE09700C94B54 /* Resources */ = {
+		47C4E12E21CD21920020D096 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C4E13F21CD21950020D096 /* LaunchScreen.storyboard in Resources */,
+				47C4E13C21CD21950020D096 /* Assets.xcassets in Resources */,
+				47C4E13A21CD21920020D096 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,14 +1096,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47A80190210EE09700C94B54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47A80199210EE09700C94B54 /* __UITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47A801A4210EE80500C94B54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1089,6 +1113,18 @@
 				47A801D1210F111D00C94B54 /* View_1.m in Sources */,
 				47A801CE210F104E00C94B54 /* DownLoader.m in Sources */,
 				47A801BC210EFB3B00C94B54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C4E12C21CD21920020D096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C4E13721CD21920020D096 /* ViewController.m in Sources */,
+				47C4E14221CD21950020D096 /* main.m in Sources */,
+				47C4E13421CD21920020D096 /* AppDelegate.m in Sources */,
+				47C4E14B21CD22400020D096 /* SqliteTools.m in Sources */,
+				47C4E14E21CD24DE0020D096 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1156,14 +1192,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		47A80196210EE09700C94B54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47A8017C210EE08E00C94B54 /* 沙盒 */;
-			targetProxy = 47A80195210EE09700C94B54 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		479467C121B1337B009D4641 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1193,6 +1221,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				47A8018B210EE09600C94B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47C4E13821CD21920020D096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C4E13921CD21920020D096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47C4E13D21CD21950020D096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C4E13E21CD21950020D096 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1345,47 +1389,6 @@
 			};
 			name = Release;
 		};
-		47A8019F210EE09700C94B54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "沙盒UITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BT.--UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "沙盒";
-			};
-			name = Debug;
-		};
-		47A801A0210EE09700C94B54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "沙盒UITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BT.--UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "沙盒";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		47A801AD210EE80500C94B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1415,6 +1418,48 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47C4E14421CD21950020D096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlite3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = BT.sqlite3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47C4E14521CD21950020D096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlite3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = BT.sqlite3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1700,15 +1745,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47A8019E210EE09700C94B54 /* Build configuration list for PBXNativeTarget "沙盒UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47A8019F210EE09700C94B54 /* Debug */,
-				47A801A0210EE09700C94B54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		47A801AC210EE80500C94B54 /* Build configuration list for PBXNativeTarget "捕获异常" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1723,6 +1759,15 @@
 			buildConfigurations = (
 				47A801BE210EFB3B00C94B54 /* Debug */,
 				47A801BF210EFB3B00C94B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C4E14321CD21950020D096 /* Build configuration list for PBXNativeTarget "sqlite3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C4E14421CD21950020D096 /* Debug */,
+				47C4E14521CD21950020D096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
